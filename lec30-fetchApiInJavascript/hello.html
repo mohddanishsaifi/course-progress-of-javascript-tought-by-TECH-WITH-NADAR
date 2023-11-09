@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <title>craigslist | about</title>
+        <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/simple-page.css?v=26867f84996478574fac834a298efca4">
+        <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/jquery-ui-clcustom.css?v=3b05ddffb7c7f5b62066deff2dda9339">
+        <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/jquery.qtip-2.2.1.css?v=cd202aead4d1dd4894fbae4ade23fcf8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+
+    <body class="simple about footer header">
+        <script>
+    function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+    var pagetype, pagemode;
+    (function(){
+        var h = document.documentElement;
+        h.className = h.className.replace('no-js', 'js');
+        var b = document.body;
+        var bodyClassList = b.className.split(/\s+/);
+        pagetype = bodyClassList[0]; // dangerous assumption
+        var fmt = C('cl_fmt');
+        if ( fmt === 'regular' || fmt === 'mobile' ) {
+            pagemode = fmt;
+        } else if (screen.width <= 480) {
+            pagemode = 'mobile';
+        } else {
+            pagemode = 'regular';
+        }
+        pagemode = pagemode === 'mobile' ? 'mobile' : 'desktop';
+        if (window.cl && pagemode === 'mobile') {
+            cl.hasMobileLayout = true;
+        }
+        bodyClassList.push(pagemode);
+        if (C('hidesearch') === '1' && pagemode !== 'mobile') {
+            bodyClassList.push('hide-search');
+        }
+        var width = window.innerWidth || document.documentElement.clientWidth;
+        if (width > 1000) { bodyClassList.push('w1024'); }
+        if (typeof window.sectionBase !== 'undefined') {
+            var mode = (decodeURIComponent(C('cl_tocmode') || '').match(new RegExp(window.sectionBase + ':([^,]+)', 'i')) || {})[1] || window.defaultView;
+            if (mode) {
+                bodyClassList.push(mode);
+            }
+        }
+        b.className = bodyClassList.join(' ');
+    }());
+</script>
+
+
+        <div class="page-container">
+            <header class="global-header simple">
+   <a class="header-logo" name="logoLink" href="https://www.craigslist.org">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb">
+            <p>
+                about
+            </p>
+        </li>
+</ul>
+    </nav>
+
+
+</header>
+
+
+            <section class="simple-page-content">
+                <table style="width: 600px;" cellspacing="10" cellpadding="10">
+<tbody>
+<tr>
+<td style="padding: 8px;" bgcolor="#dddddd" width="50%"><strong>using craigslist</strong></td>
+<td bgcolor="#dddddd" width="50%"><strong>about craigslist</strong></td>
+</tr>
+<tr>
+<td style="padding: 15px;"><a href="help">CL Help Pages</a><br><small>need assistance?<br></small></td>
+<td><a href="//sfbay.craigslist.org/about/craigslist_is_hiring">CL Jobs</a><br><small>we're hiring in SF<br></small></td>
+</tr>
+<tr>
+<td style="padding: 15px;"><a href="help/faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<a href="help/faq-job">Jobs FAQ</a>) <br><small>frequently asked questions</small></td>
+<td><a href="jim_buckmaster">Jim</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="craig_newmark">Craig</a> <br><small>CEO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; founder</small></td>
+</tr>
+<tr>
+<td style="padding: 15px;"><a href="terms.of.use">Terms Of Use</a><br><small>please read carefully<br></small></td>
+<td><a href="/about/whats-new">What's New</a><br><span style="font-size: 13.3333px;">features and fixes</span></td>
+</tr>
+<tr>
+<td style="padding: 15px;"><a href="privacy.policy">Privacy Policy</a><sup style="font-weight: bold; color: orange; margin-left: 0.5em;">new</sup> <br> <small>user privacy info<br></small></td>
+<td><a href="best">Best of craigslist</a><br><small>voted by 'readers like you'</small></td>
+</tr>
+<tr>
+<td style="padding: 15px;"><a href="https://www.craigslist.org/contact">Contact Form</a><br><small>send us a note</small></td>
+<td><a href="https://www.youtube.com/watch?v=e2j_ZqopHC0">24 Hours on craigslist</a><br><small>award-winning documentary</small></td>
+</tr>
+<tr>
+<td style="padding: 15px;"><a href="https://forums.craigslist.org/?forumID=8">CL Feedback Forum</a><br><small>suggestion box<br></small></td>
+<td><a href="http://craigslistfund.org/">Charitable Fund</a><br><small>🦆 factory farming</small></td>
+</tr>
+<tr>
+<td style="padding: 15px;"><a href="https://forums.craigslist.org/?forumID=9">CL Help Desk Forum</a><br><small>tips from experienced users</small></td>
+<td><a href="http://blog.craigslist.org/">craigslist Blog</a><br><small>updates and etc</small></td>
+</tr>
+<tr>
+<td style="padding: 15px;"><a href="scams">Avoiding Scams &amp; Fraud</a> <br><small>rule #1 is "deal locally"</small></td>
+<td><a href="https://www.craigslist.org/about/security_researcher_appreciation_page">Security Kudos</a><br><small>responsible disclosures<br></small></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+            </section>
+
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2023 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+        
+    </ul>
+</footer>
+        </div>
+        <script src="//www.craigslist.org/js/jquery-1.11.3.min.js?v=5b1989b53d855e1b73dc298260548e77" ></script>
+
+        
+                <script>
+                (function(){
+                    var cl = window.CL = window.cl = window.cl || window.CL || {};
+                    cl.sandbox = "";
+                })();
+                try {
+                    var p = document.createElement("p");
+                    if (
+                        !/\/\/.+\.craigslist\.org\/about\//.test(window.location.href) &&
+                        window.location.pathname.length > 1 &&
+                        (!window.addEventListener || JSON.parse(JSON.stringify('x')) !== 'x' || (p.style.flex!=='' && p.style['-webkit-flex'] !== ''))
+                    ) {
+                        throw "unsupported browser";
+                    }
+                } catch (e) {
+                    function cleanup() {
+                        document.body.innerHTML = '<div id="cl-unsupported-browser" style="margin:1em;font-size:150%;text-align:center;">We have detected you are using a browser that is missing critical features.<br><br>Please visit craigslist from a modern browser.</div>';
+                        document.body.style = "display:block";
+                    }
+
+                    try {
+                        document.body.style = "display:none";
+                    } catch (e) {
+                    }
+                    window.onload = cleanup;
+                    window.clUnsupportedBrowser = true;
+                }
+                </script>
+            <script src="//www.craigslist.org/js/general-concat.min.js?v=8c76d6571eb716f4326e4d55ebf1bc69" ></script>
+
+        
+    </body>
+</html>
